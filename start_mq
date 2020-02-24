@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+
+/tmp/load_messages.bash &
+runmqdevserver

@@ -1,4 +1,4 @@
-FROM cp.icr.io/cp/icp4i/mq/ibm-mqadvanced-server-integration:9.1.3.0-r4
+FROM cp.icr.io/cp/icp4i/mq/ibm-mqadvanced-server-integration:9.1.3.0-amd64
 USER root
 RUN useradd admin -G mqm \
     && echo admin:passw0rd | chpasswd \

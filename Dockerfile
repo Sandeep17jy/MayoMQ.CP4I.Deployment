@@ -9,4 +9,3 @@ ADD msg.dat /tmp/
 ADD load_messages.bash /tmp/
 ADD start_mq /tmp/
 ENV LICENSE accept
-ENTRYPOINT ["/tmp/start_mq"]
